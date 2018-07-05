@@ -1,0 +1,2 @@
+守护进程运行java  nohup java -jar test.jar >temp.txt &
+java 运行jar时指定依赖 java -Djava.ext.dirs=m:\test -jar test.jar 

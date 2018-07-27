@@ -1,0 +1,7 @@
+1 java 判断数组中是否存在某个元素
+  
+  String[] arr = {"1","2","3"}
+  
+  Arrays.binarySearch(arr,"1"); //返回查找元素的位置，此方法只适用于有序数组，否则返回值会比较奇怪
+  
+  Arrays.asList(arr).contains("1") //如果存在则返回true，否则返回false
